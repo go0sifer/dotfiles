@@ -48,3 +48,28 @@
 #network {
   margin-right: 0.8em;
 }
+#custom-power {
+  opacity: 1;
+  color: @module-fg;
+  padding: 0 4px;
+}
+#custom-power {
+  color: @foreground;
+  background: @background-alt;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin: 2px 4px 2px 0;
+  padding: 0 6px 0 9px;
+}
+
+#custom-power:hover {
+  color: @foreground;
+  background: @background;
+  text-shadow: none;
+  box-shadow: none;
+}
+#custom-power {
+  border-radius: 10px;
+  padding: 0 6px 0 9px;
+}

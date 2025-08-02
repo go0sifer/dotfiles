@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces", "group/usage"],
     "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "group/bat", "group/net", "tray"],
+    "modules-right": ["wireplumber", "group/bat", "group/net", "tray", "custom/power"],
 
     "group/usage": {
         "orientation": "horizontal",
@@ -106,5 +106,11 @@
     "tray": {
         "icon-size": 16,
         "spacing": 16
+    },
+    "custom/power": {
+        "format": " ",
+        "tooltip": false,
+        // "tooltip-format": "Power Menu",
+        "on-click": "~/.config/waybar/scripts/power-menu.sh"
     }
 }
