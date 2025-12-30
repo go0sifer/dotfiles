@@ -109,6 +109,7 @@ alias myinfo="fastfetch -c ~/.config/fastfetch/ip.jsonc"
 alias syncinfo="watch cat /proc/diskstats"
 alias l="exa -la"
 alias ls="exa -l"
+alias blur="swappy -f "$(ls -1t ~/Pictures/*hyprshot.png | tail -n1)""
 eval "$(starship init zsh)"
 fastfetch 
 
