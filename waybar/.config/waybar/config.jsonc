@@ -1,5 +1,7 @@
 {
     "layer": "top",
+    "exclusive": true,
+    "mode": "dock",
     "position": "top",
     "height": 24,
     "spacing": 5,
